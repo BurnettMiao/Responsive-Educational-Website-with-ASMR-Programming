@@ -598,3 +598,31 @@ footer .copyright {
     padding: 60px 50px 30px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  nav .left .links a:nth-child(5),
+  nav .left .links a:nth-child(6) {
+    display: none;
+  }
+
+  .content .courses .item .top .info a,
+  .content .podcasts .item .top .info a {
+    font-size: 14px;
+  }
+
+  .content .comments .right .item p {
+    font-size: 13px;
+  }
+
+  .content .podcasts .item .top .info p {
+    font-size: 11px;
+  }
+
+  .content .podcasts .item .bottom .duration i {
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 60px 30px 30px;
+  }
+}
