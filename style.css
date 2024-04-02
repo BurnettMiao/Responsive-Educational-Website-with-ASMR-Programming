@@ -538,3 +538,63 @@ footer .copyright {
     flex: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0 30px;
+  }
+
+  nav .left .links {
+    font-size: 13px;
+    gap: 14px;
+  }
+
+  nav .buttons a:first-child {
+    display: none;
+  }
+
+  header .info h1 {
+    font-size: 26px;
+  }
+
+  header .info p {
+    font-size: 16px;
+  }
+
+  header .search {
+    width: 70%;
+  }
+
+  .content {
+    padding: 100px 30px 0;
+  }
+
+  .content .courses .item .top {
+    height: 324px;
+  }
+
+  .content .courses .item .bottom .discount .time {
+    display: none;
+  }
+
+  .content .courses .item .bottom .discount > h5 {
+    width: 100%;
+  }
+
+  .content .comments {
+    flex-direction: column;
+  }
+
+  .content .comments > p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .content .articles .item .top img {
+    height: 160px;
+  }
+
+  footer {
+    padding: 60px 50px 30px;
+  }
+}
